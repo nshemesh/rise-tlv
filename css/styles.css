@@ -1,45 +1,121 @@
+
+/*
+color palette
+#514343
+#DDD3D3
+#E0DEDE
+#B8AAAA
+
+*/
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: "Lobster", cursive;
+h1, h2, h2 {
+    font-family: "Poppins", sans-serif;
 }
 
 h2 {
-    color: #3046C5;
+    color: #B8AAAA;
+    font-weight: 600;
+    font-size: 3em;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color:white;
 }
+
+h3 {
+    font-size:12px;
+    font-weight: lighter;
+}
+
+h4 {
+    color:white;
+    font-size: 2em;
+}
+
+
+h5 {
+    color:white;
+    font-size: 2em;
+}
+
+p {
+    color:black;
+    font-size: 2em;
+}
+
+a {
+    color:white;
+}
+
+a role {
+    color:white;
+}
+
+/* mouse over link */
+a:hover {
+    color:#E0DEDE;
+    text-decoration: none;
+  }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background:#514343;
     padding: 20px 0;
-}
+  }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    padding: 20px;
+    background:#514343;
     color: white;
     margin: 0;
 }
 
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
     min-height: 200px;
 }
 
-.navbar {
-    background-color: #901CAD;
+.carousel-bg {
+    background-color:#E0DEDE;
+
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel {
-    border: solid #5637DD;
+.btn-link {
+    color:white;
 }
+
+.btn-default {
+    background-color: #514343;
+    color:#faf9f9;
+}
+
+.btn-xlarge {
+    background-color: #514343;
+    padding: 18px 28px;
+    font-size: 2em;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.card-title {
+    color: #514343;
+
+}
+
+.card {
+    padding:5px;
+}
+
+.card-text {
+    font-size: 1em;
+}
+
