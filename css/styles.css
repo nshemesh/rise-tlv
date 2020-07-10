@@ -26,8 +26,11 @@ header h2 {
     color:white;
 }
 
-h3 {
-    font-size:12px;
+h3.tagline {
+    font-size: 1em;
+}
+p {
+    font-size:3em;
     font-weight: lighter;
 }
 
